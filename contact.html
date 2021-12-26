@@ -9,39 +9,38 @@
     this is my contact info page for purpose of contact between clients or those who inquire
     my services>
 </head>
-
-
 <section>
- <contactpage class = "contact1">
+    <contactpage class = "contact1">
         <div class = "form-group">
-        <h1>Contact info: tphan5901@gmail.com</h1>
-        <h2> <a href = "https://www.twitter.com"> Twitter: saint65405233 </a></h2>
+            <h1>Contact info: tphan5901@gmail.com</h1>
+            <h2> <a href = "https://www.twitter.com"> Twitter: saint65405233</a> </h2>
         </div>
-</contactpage>
-    <div class = "container">
-        
-        <form action = "https://formspree.io/f/mgedvvlg" method = "POST">
-            <div class = "form-group">
-                <h1>Contact me</h1>
-                <label for = "firstName"> First name</label>
-                <input type = "text" id = "message" name = "firstname">
-            </div>
-            <div class = "form-group">
-                <label for = "lastName"> Last name</label>
-                <input type = "text" id = "Lastname" name = "message">
-            </div>
-            <div class = "form-group">
-                <label for = "email"> Email</label>
-                <input type = "email" id = "message" name = "email">
-            </div>
-            <div class = "form-group">
-                <label for = "email"> Message</label>
-                
-            </div>
-            <div class = "form-group">  <textarea name = "message" id = "message" cols = "30" rows = "10"></textarea></div>
-            <button type = "submit"> Submit</button>
-            <div id = "status"></div>
-        </form>
-    </div>
-</section>
+    </contactpage>
+        <div class = "container">
+            <form action = "https://formspree.io/f/mgedvvlg" method = "POST" id = "my-form">
+                <div class = "form-group">
+                    <h1>Email me</h1>
+                    <label for = "firstName"> First name</label>
+                    <input type = "text" id = "firstName" name = "firstname">
+                </div>
+                <div class = "form-group">
+                    <label for = "lastName"> Last name</label>
+                    <input type = "text" id = "Lastname" name = "lastname">
+                </div>
+                <div class = "form-group">
+                    <label for = "email"> Email</label>
+                    <input type = "email" id = "email" name = "email">
+                </div>
+                <div class = "form-group">
+                    <label for = "message"> Message</label>
+                </div>
+                <div class = "form-group">  <textarea name = "message" id = "message" cols = "30" rows = "10"></textarea>
+                </div>
+                <button type = "submit"> Submit</button>
+                <div id = "status">
+                    </div>
+            </form>
+        </div>
+    </section>
+    <script src = "./main.js"></script>
 </div>
