@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: rgb(104, 134, 190);
+}
+
+p{  
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italics;
+}
+
+.container{
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.hobbies{
+    position: relative;
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 400px;
+}
+
+.web{
+    position: relative;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 100px auto;
+}
+
+.games{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+}
