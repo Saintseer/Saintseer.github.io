@@ -5,8 +5,8 @@
     margin: 0px;
 }
 
-section {
-    background-color: rgb(243, 144, 63); 
+section{
+    background-color: rgb(17, 112, 202); 
     height: 1010px;
     align-items: center;
     text-align: center;
@@ -72,10 +72,10 @@ button[type= "submit"]:hover{
     background-color: aliceblue;
 }
 
-h2 {
+h2{
     font-size: 50px;
     text-align: center;
-    color: black;
+    color: rgb(250, 127, 27);
 }
 
 #status{
@@ -90,7 +90,6 @@ h2 {
 #status.success{
     background-color: aquamarine;
 }
-
 #status.error{
     background-color: rgb(255, 174, 81);
     color: white;
