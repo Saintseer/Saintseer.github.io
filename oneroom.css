@@ -1,4 +1,4 @@
-* {
+*{
 	justify-content: center;
     box-sizing: border-box;
     padding: 0;
@@ -24,12 +24,12 @@ cursor: pointer;
 transform: translateY(25px);
 }
 
-.dark theme {
+.dark theme{
     flex: 1;
     text-align: right;
 }
 
-.menuop {
+.menuop{
     transform: translateX(-50px);
     font-size: 20px;
     color: orange;
@@ -45,7 +45,7 @@ transform: translateY(25px);
 /* button a with hover */
 .btna {
     display: inline-block;
-    background-color: lightpink;
+    background-color: rgb(255, 132, 151);
     border-radius: 12px;
     transform: translateX(30px);
 }
@@ -58,7 +58,7 @@ transform: translateY(25px);
 /* button b with hover */
 .btnb {
     display: inline-block;
-    background-color: lightseagreen;
+    background-color: rgb(31, 226, 226);
     border-radius: 12px;
     transform: translateX(40px);
 }
@@ -71,7 +71,7 @@ transform: translateY(25px);
 /* button c with hover*/
 .btnc {
     display: inline-block;
-    background-color: lightskyblue;
+    background-color: rgb(36, 135, 248);
     border-radius: 12px;
     transform: translateX(50px);
     transform: translateY(0,50px);
@@ -81,7 +81,6 @@ transform: translateY(25px);
     background-color: lightgray; 
     border-radius: 10px; 
 }
-
 
 /*  drop down menu   */
 .dropbtn {  
@@ -141,13 +140,13 @@ transform: translateY(25px);
 }  
 
 
-.randomtext {
+.randomtext{
     text-align: center;
     font-size: 30px;
     font-style: italic;
 }
 
-header {
+header{
     color: var(--primary-color);
     background-color:  var(--primary-color); 
     justify-content: center;
@@ -156,7 +155,7 @@ header {
 
 .thirdcontent {
    /* background-color:  var(--primary-color); */
-    background-color: rgb(56, 183, 241);
+    background-color: rgb(38, 129, 247);
     height: 800px;
     position: relative;
 }
@@ -167,12 +166,12 @@ section {
 
 }
 
-#img {
+#img{
     position: relative;
     top: 50px;
 }
 
-.dflex {
+.dflex{
     transform: translateX(-10px);
     display: flex;
     align-items: center;
@@ -191,7 +190,7 @@ nav {
     text-align: center;
 }
 
-h2 {
+h2{
     font-size: 50px;
     text-align: center;
 }
@@ -265,6 +264,11 @@ h1 {
     color:black;
 }
 
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
 .contact123 {
     background-color: mediumaquamarine; 
     display: flex;
@@ -272,3 +276,5 @@ h1 {
     text-align: center;
     justify-content: center;
 }
+
+
